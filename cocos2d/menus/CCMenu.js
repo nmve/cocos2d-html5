@@ -1,6 +1,7 @@
 /****************************************************************************
  Copyright (c) 2008-2010 Ricardo Quesada
  Copyright (c) 2011-2012 cocos2d-x.org
+ 
  Copyright (c) 2013-2014 Chukong Technologies Inc.
 
  http://www.cocos2d-x.org
@@ -274,7 +275,7 @@ cc.Menu = cc.Layer.extend(/** @lends cc.Menu# */{
      */
     alignItemsInColumns: function (/*Multiple Arguments*/) {
         if ((arguments.length > 0) && (arguments[arguments.length - 1] == null))
-            cc.log("parameters should not be ending with null in Javascript");
+            cc.log("parameters should not be ending with null in JavaScript");
 
         var i, rows = [];
         for (i = 0; i < arguments.length; i++) {
@@ -357,7 +358,7 @@ cc.Menu = cc.Layer.extend(/** @lends cc.Menu# */{
      */
     alignItemsInRows: function (/*Multiple arguments*/) {
         if ((arguments.length > 0) && (arguments[arguments.length - 1] == null))
-            cc.log("parameters should not be ending with null in Javascript");
+            cc.log("parameters should not be ending with null in JavaScript");
         var i, columns = [];
         for (i = 0; i < arguments.length; i++) {
             columns.push(arguments[i]);
