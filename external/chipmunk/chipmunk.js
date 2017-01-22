@@ -83,7 +83,7 @@ if (typeof window === 'object' && window.navigator.userAgent.indexOf('Firefox') 
  * Chipmunk's hashPair function is defined as:
  *   #define CP_HASH_COEF (3344921057ul)
  *   #define CP_HASH_PAIR(A, B) ((cpHashValue)(A)*CP_HASH_COEF ^ (cpHashValue)(B)*CP_HASH_COEF)
- * But thats not suitable in javascript because multiplying by a large number will make the number
+ * But thats not suitable in JavaScript because multiplying by a large number will make the number
  * a large float.
  *
  * The result of hashPair is used as the key in objects, so it returns a string.
@@ -1272,7 +1272,7 @@ PolyShape.prototype.setVerts = function(verts, offset)
 	var len = verts.length;
 	var numVerts = len >> 1;
 
-	// This a pretty bad way to do this in javascript. As a first pass, I want to keep
+	// This a pretty bad way to do this in JavaScript. As a first pass, I want to keep
 	// the code similar to the C.
 	this.verts = new Array(len);
 	this.tVerts = new Array(len);
