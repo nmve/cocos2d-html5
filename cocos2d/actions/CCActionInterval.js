@@ -499,7 +499,7 @@ cc.Sequence = cc.ActionInterval.extend(/** @lends cc.Sequence# */{
 cc.sequence = function (/*Multiple Arguments*/tempArray) {
     var paramArray = (tempArray instanceof Array) ? tempArray : arguments;
     if ((paramArray.length > 0) && (paramArray[paramArray.length - 1] == null))
-        cc.log("parameters should not be ending with null in Javascript");
+        cc.log("parameters should not be ending with null in JavaScript");
 
     var result, current, i, repeat;
     while (paramArray && paramArray.length > 0) {
