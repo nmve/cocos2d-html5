@@ -1,5 +1,5 @@
 /**
- * Put the `tools` in the root of your project, then run this script with nodejs.
+ * Put the `tools` in the root of your project, then run this script with Node.js.
  * @type {exports|*}
  */
 
