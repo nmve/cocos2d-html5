@@ -21,8 +21,8 @@ Name                GithubID    Main contribution
 
 Dali Kilani         @dadilcool  added instruction to read me
 
-Chris               @hannon235	added node.js api for box2d
-                                added SocketIO and SocketIO tests
+Chris               @hannon235	added Node.js api for Box2D
+                                added Socket.io and Socket.io tests
 
 Jason Aeschliman    @jaeschliman  fixed cc.Node setposition
 
@@ -234,7 +234,7 @@ Long Jiang           @jianglong0156 cc.LabelBMFont bug fix
                                     KeyCode bug fix
                                     ccui.ListView bug fix
 
-Joe Lafiosca         @lafiosca      Added Javascript file loader
+Joe Lafiosca         @lafiosca      Added JavaScript file loader
 
 galapagosit          @galapagosit   ccs.actionManager bug fix
 
