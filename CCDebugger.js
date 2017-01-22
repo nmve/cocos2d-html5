@@ -96,7 +96,7 @@ cc._LogInfos = {
     eventManager_addListener_3: "listener must be a cc.EventListener object when adding a fixed priority listener",
     eventManager_addListener_4: "The listener has been registered, please don't register it again.",
 
-    LayerMultiplex_initWithLayers: "parameters should not be ending with null in Javascript",
+    LayerMultiplex_initWithLayers: "parameters should not be ending with null in JavaScript",
     LayerMultiplex_switchTo: "Invalid index in MultiplexLayer switchTo message",
     LayerMultiplex_switchToAndReleaseMe: "Invalid index in MultiplexLayer switchTo message",
     LayerMultiplex_addLayer: "cc.Layer.addLayer(): layer should be non-null",
