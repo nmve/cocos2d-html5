@@ -26,7 +26,7 @@
  * THE SOFTWARE.
  *
  *
- * converted to Javascript / cocos2d-x by Angus C
+ * converted to JavaScript / cocos2d-x by Angus C
  */
 
 /**
