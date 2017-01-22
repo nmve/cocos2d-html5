@@ -1364,7 +1364,7 @@ cc.defineGetterSetter(_p, "selectedIndex", _p.getSelectedIndex, _p.setSelectedIn
  */
 cc.MenuItemToggle.create = function (/*Multiple arguments follow*/) {
     if ((arguments.length > 0) && (arguments[arguments.length - 1] == null))
-        cc.log("parameters should not be ending with null in Javascript");
+        cc.log("parameters should not be ending with null in JavaScript");
     var ret = new cc.MenuItemToggle();
     ret.initWithItems(Array.prototype.slice.apply(arguments));
     return ret;
