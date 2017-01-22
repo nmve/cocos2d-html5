@@ -172,7 +172,7 @@
 
         cc.renderer.pushRenderCommand(this._beforeVisitCmdStencil);
 
-        //optimize performance for javascript
+        //optimize performance for JavaScript
         var currentStack = cc.current_stack;
         currentStack.stack.push(currentStack.top);
         currentStack.top = this._stackMatrix;
