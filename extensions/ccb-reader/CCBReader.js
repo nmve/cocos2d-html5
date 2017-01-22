@@ -184,7 +184,7 @@ cc.BuilderReader = cc.Class.extend({
         this._animationManager = new cc.BuilderAnimationManager();
 
         //setup byte array
-        //Array replace to CCData in Javascript
+        //Array replace to CCData in JavaScript
         this._data = data;
         this._bytes = data.length;
         this._currentBit = 0;
